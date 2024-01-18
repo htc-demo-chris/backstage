@@ -18,8 +18,6 @@ env:
   GCP_GAR_HOST: ${{ vars.GCP_GAR_HOST }}
   GCP_GAR_NAME: ${{ vars.GCP_GAR_NAME }}
   # CLOUD_PROVIDER: azure
-  ACR_PUSH_SP_ID: ${{ vars.ACR_PUSH_SP_ID }}
-  ACR_PUSH_SP_PASSWORD: ${{ vars.ACR_PUSH_SP_PASSWORD }}
   ACR_SERVER_NAME: ${{ vars.ACR_SERVER_NAME }}
 
 jobs:
